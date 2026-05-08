@@ -15,6 +15,9 @@ permission:
     "*.env": ask
     "*.env.*": ask
     "*.env.example": allow
+  task:
+    "*": deny
+    "explore": allow
   grep: allow
   glob: allow
   list: allow
