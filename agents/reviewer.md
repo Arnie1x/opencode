@@ -25,6 +25,10 @@ permission:
     "cat": allow
   webfetch: allow
   websearch: allow
+  skill: allow
+  task:
+    "*": deny
+    "explore": allow
   codesearch: allow
 maxSteps: 20
 ---

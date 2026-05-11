@@ -24,6 +24,7 @@ permission:
   bash: allow
   webfetch: allow
   websearch: allow
+  skill: allow
   codesearch: allow
 maxSteps: 30
 ---
