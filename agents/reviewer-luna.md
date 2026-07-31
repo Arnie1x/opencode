@@ -1,7 +1,7 @@
 ---
 mode: subagent
-description: 'Reviews a batch of completed executor tasks against acceptance criteria and cross-cutting concerns. Reports pass/needs_fix with actionable, specific feedback. Read-only: never modifies files.'
-model: opencode-go/glm-5.2
+description: 'Trial reviewer running GPT-5.6 Luna (max reasoning) for A/B "review-off" comparison against the primary reviewer. Reviews a batch of completed executor tasks against acceptance criteria and cross-cutting concerns. Reports pass/needs_fix with actionable, specific feedback. Read-only: never modifies files.'
+model: opencode-go/gpt-5.6-luna
 variant: max
 permission:
   "*": deny

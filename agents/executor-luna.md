@@ -1,7 +1,8 @@
 ---
 mode: subagent
 description: 'Implements a single phase from an orchestration plan. Receives a Task Package, reads relevant context from the codebase and plan files, writes code, and reports all changes made. Does not modify state files or plan files.'
-model: opencode-go/deepseek-v4-flash
+model: opencode-go/gpt-5.6-luna
+variant: high
 permission:
   "*": deny
   edit: allow
