@@ -20,6 +20,8 @@ permission:
     "plans/**": allow
     "**/plans/**": allow
     "**/.opencode-plan.yaml": allow
+    "/tmp/**": allow
+    "**/tmp/**": allow
   bash:
     "*": ask
     "git status*": allow
